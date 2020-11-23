@@ -1,9 +1,11 @@
 import React from "react";
+// import Search from "./Search";
 
 function App() {
   return (
     <div className="App">
-      <h1>Search Spanish Idioms</h1>
+      <h1>Firebase Practice</h1>
+      <button>Sign In</button>
     </div>
   );
 }
