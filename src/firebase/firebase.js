@@ -15,7 +15,7 @@ var firebaseConfig = {
 export const actionCodeSettings = {
   // URL you want to redirect back to. The domain (www.example.com) for this
   // URL must be in the authorized domains list in the Firebase Console.
-  url: "https://authentication-practice-e29ab.web.app/",
+  url: "https://authentication-practice-e29ab.web.app/set-password",
   // This must be true.
   handleCodeInApp: true,
 };
@@ -25,3 +25,5 @@ export const actionCodeSettings = {
 firebase.initializeApp(firebaseConfig);
 
 export const auth = firebase.auth();
+
+export const database = firebase.firestore();

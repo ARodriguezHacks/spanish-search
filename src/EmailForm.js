@@ -18,6 +18,7 @@ function EmailForm() {
     console.log(email);
     try {
       await auth.sendSignInLinkToEmail(email, actionCodeSettings);
+      //window.localStorage.setItem("emailForSignIn", email);
       console.log("success");
       //setEmail("")
     } catch (error) {
